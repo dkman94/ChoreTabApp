@@ -1,0 +1,334 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical">
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChoreTalkActivity" >
+
+ 
+ 
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Brian didn't take out the trash. Guess who's buying the beer tonight..."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 	
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Jake didn't clean the bathroom...now your Twitter's getting hacked"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+        
+    <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Noone cleaned at all this week. To be honest we're just going to get drunk."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Mike's really been slacking on dishes and now they're in his bed."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+    <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Diddy is just the worst roommate ever. He doesn't do SHIT!"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Bob Gribben is just the worst."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+         <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Scooby pooped all over the carpet. It smells awful."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Scrappy was even worse..."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+         <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="This is arguably the most disgusting apartment of all time."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="To be honeset I don't know why Diddy lives here."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+         <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="He could really afford so much better."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="And why is he even in Columbus?"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+         <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Noone cleaned at all this week. To be honest we're just going to get drunk."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="And what's Scooby Doo's deal?"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+         <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="You'd think a dog that could basically talk could control his bowel movements."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="That was easily the worst day this week."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+         <!-- 3 columns -->
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="I'm really just running out of things to say."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:text="Oh jeez thank god this is the last one."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:background="#00CCFF" />
+     </TableRow>
+        <View
+        android:layout_height="2dip"
+        android:background="#0000FF" />
+ 
+	</TableLayout>
+</LinearLayout>
+</ScrollView>
