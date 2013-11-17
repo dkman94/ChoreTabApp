@@ -27,12 +27,6 @@
         android:layout_toRightOf="@+id/textView1"
         android:ems="10" />
 
-       <ImageView
-           android:id="@+id/imgDisplayImage"
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:layout_centerHorizontal="true" />
-
     <Button
         android:id="@+id/button1"
         style="?android:attr/buttonStyleSmall"
@@ -43,5 +37,10 @@
         android:layout_marginBottom="37dp"
         android:text="Submit" 
         android:onClick="toEnd"/>
+
+    <ImageView
+        android:id="@+id/imgDisplayImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>

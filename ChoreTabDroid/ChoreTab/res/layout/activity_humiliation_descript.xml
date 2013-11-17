@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HumiliationDescriptActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/choretablogo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Create your own Punishment"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <Button
+         android:id="@+id/add_chore"
+         android:layout_width="150dp"
+         android:layout_height="30dp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="24dp"
+         android:background="@drawable/choreadd"
+         android:text="Submit Punishment"
+         android:textColor="#DCFFC4"
+         android:textSize="15sp" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/editText1"
+         android:layout_alignLeft="@+id/imageView1"
+         android:layout_marginBottom="26dp"
+         android:text="The Slacker Must: " />
+
+     <EditText
+         android:id="@+id/editText2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/textView2"
+         android:layout_alignBottom="@+id/textView2"
+         android:layout_alignLeft="@+id/textView1"
+         android:ems="10"
+         android:inputType="date" />
+
+     <View
+         android:id="@+id/view1"
+         android:layout_width="wrap_content"
+         android:layout_height="2dip"
+         android:layout_above="@+id/textView3"
+         android:layout_alignRight="@+id/editText2"
+         android:layout_marginBottom="30dp"
+         android:background="#FF9900" />
+
+     <View
+         android:id="@+id/View01"
+         android:layout_width="wrap_content"
+         android:layout_height="2dip"
+         android:layout_alignBottom="@+id/editText1"
+         android:layout_alignLeft="@+id/view1"
+         android:background="#FF9900" />
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/add_chore"
+         android:layout_alignRight="@+id/imageView1"
+         android:layout_marginBottom="32dp"
+         android:ems="10" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView1"
+         android:layout_marginTop="26dp"
+         android:layout_toLeftOf="@+id/textView3"
+         android:text="By: " />
+
+</RelativeLayout>

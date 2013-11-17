@@ -8,5 +8,23 @@
     <string name="title_activity_add_roomate">AddRoomateActivity</string>
     <string name="title_activity_end">EndActivity</string>
     <string name="title_activity_chore_talk">ChoreTalkActivity</string>
+    <string name="title_activity_add_achore">AddAChoreActivity</string>
+    <string name="title_activity_chore_or_punishement">ChoreOrPunishementActivity</string>
+    <string name="title_activity_add_chore">AddChoreActivity</string>
+    <string name="title_activity_add_punishment">AddPunishmentActivity</string>
+
+    <string-array name="chores_array">
+        <item>Do the Dishes</item>
+        <item>Vacuum the living room</item>
+        <item>Stop smelling bad</item>
+        <item>Clean the Bathroom</item>
+        <item>Dust the counters</item>
+        <item>Take out the trash</item>
+        <item>Wipe the counters</item>
+        <item>Smell good</item>
+    </string-array>
+
+    <string name="title_activity_humiliation_descript">HumiliationDescriptActivity</string>
+    <string name="title_activity_money_punish">MoneyPunishActivity</string>
 
 </resources>

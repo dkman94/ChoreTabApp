@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.choretab.Login"
-            android:label="@string/app_name" >
+            android:label="ChoreTab" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,19 +24,43 @@
         </activity>
         <activity
             android:name="com.example.choretab.WelcomeActivity"
-            android:label="@string/title_activity_welcome" >
+            android:label="Welcome! Add a Roommie" >
         </activity>
         <activity
             android:name="com.example.choretab.AddRoomateActivity"
-            android:label="@string/title_activity_add_roomate" >
+            android:label="Enter Roommate Information." >
         </activity>
         <activity
             android:name="com.example.choretab.EndActivity"
-            android:label="@string/title_activity_end" >
+            android:label="Congratulations!" >
         </activity>
         <activity
             android:name="com.example.choretab.ChoreTalkActivity"
-            android:label="@string/title_activity_chore_talk" >
+            android:label="ChoreTalk!" >
+        </activity>
+        <activity
+            android:name="com.example.choretab.AddAChoreActivity"
+            android:label="Add a Chore!" >
+        </activity>
+        <activity
+            android:name="com.example.choretab.ChoreOrPunishementActivity"
+            android:label="Choose either A Chore or Punishment." >
+        </activity>
+        <activity
+            android:name="com.example.choretab.AddChoreActivity"
+            android:label="Add a Chore!" >
+        </activity>
+        <activity
+            android:name="com.example.choretab.AddPunishmentActivity"
+            android:label="Add a Punishment!" >
+        </activity>
+        <activity
+            android:name="com.example.choretab.HumiliationDescriptActivity"
+            android:label="Describe the Humiliation!" >
+        </activity>
+        <activity
+            android:name="com.example.choretab.MoneyPunishActivity"
+            android:label="Describe the lost money!" >
         </activity>
     </application>
 
